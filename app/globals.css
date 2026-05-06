@@ -1,1 +1,21 @@
 @import "tailwindcss";
+
+@theme {
+  /* Colors */
+  --color-forest: #2D4A3E;
+  --color-gold: #C9A84C;
+  --color-cream: #F5F0E8;
+  --color-stone: #8C7B6B;
+
+  /* Font families — CSS variable names are set by next/font in layout.tsx */
+  --font-heading: var(--font-cormorant), serif;
+  --font-body: var(--font-inter), sans-serif;
+
+  /* Keep Geist bindings for any generated code that uses them */
+  --font-sans: var(--font-geist-sans, ui-sans-serif, system-ui, sans-serif);
+  --font-mono: var(--font-geist-mono, ui-monospace, monospace);
+}
+
+html {
+  scroll-behavior: smooth;
+}
