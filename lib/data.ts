@@ -67,5 +67,5 @@ export const businessInfo = {
   /**
    * Get the Facebook page URL from the business Facebook page and replace this placeholder.
    */
-  facebookUrl: 'REPLACE_WITH_FACEBOOK_PAGE_URL',
+  facebookUrl: 'https://www.facebook.com/pages/Golden%20Relax/332304337631035/',
 }
