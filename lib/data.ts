@@ -63,7 +63,7 @@ export const businessInfo = {
   /**
    * Get the embed URL from: maps.google.com → search "Golden Relax Asheville" → Share → Embed a map → copy the src URL
    */
-  mapsEmbedUrl: 'REPLACE_WITH_GOOGLE_MAPS_EMBED_SRC_URL',
+  mapsEmbedUrl: 'https://maps.google.com/maps?q=3+S+Tunnel+Rd+Asheville+NC+28805&t=&z=15&ie=UTF8&iwloc=&output=embed',
   /**
    * Get the Facebook page URL from the business Facebook page and replace this placeholder.
    */

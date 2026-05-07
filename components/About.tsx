@@ -17,8 +17,15 @@ export default function About() {
             Walk-ins are always welcome — no appointment necessary.
           </p>
         </div>
-        <div className="bg-cream aspect-square flex items-center justify-center">
-          <p className="font-heading text-3xl text-stone/30 tracking-wide">Golden Relax</p>
+        <div className="bg-forest aspect-square flex flex-col items-center justify-center gap-6 p-12">
+          <div className="w-px h-16 bg-gold/40" />
+          <p className="font-heading text-4xl text-gold font-light tracking-widest text-center">
+            Golden<br />Relax
+          </p>
+          <div className="w-px h-16 bg-gold/40" />
+          <p className="text-cream/50 text-xs tracking-[0.3em] uppercase text-center">
+            Asheville, NC
+          </p>
         </div>
       </div>
     </section>
